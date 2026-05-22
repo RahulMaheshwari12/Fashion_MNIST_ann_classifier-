@@ -34,4 +34,4 @@ The notebook trains the model and saves `model.pth`.
 Add a license (e.g., MIT) if you want others to reuse your code.
 
 ## Contact
-Open an issue or contact the repository owner on GitHub.
+Gmail :- rahulmaheshwari529@gmail.com.
