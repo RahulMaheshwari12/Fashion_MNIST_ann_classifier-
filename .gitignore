@@ -1,0 +1,7 @@
+*
+!*/
+!.gitignore
+!model.pth
+!pytorch2.ipynb
+!README.md
+!requirements.txt
