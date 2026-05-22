@@ -1,20 +1,37 @@
-# PyTorch FashionMNIST Image Classification
+# Fashion-MNIST ANN Classifier
 
-This project demonstrates a basic image classification task using a simple Artificial Neural Network (ANN) implemented with PyTorch. The goal is to classify images from the FashionMNIST dataset.
+Simple PyTorch example training an artificial neural network (ANN) on the Fashion-MNIST dataset.
 
-## Setup
+## Files
+- README.md — this file
+- pytorch2.ipynb — training and inference notebook
+- model.pth — trained model state (committed)
+- requirements.txt — Python dependencies
 
-To run this notebook, you will need the following libraries:
+## Requirements
+Install dependencies in a virtual environment:
 
--   `torch`
--   `torchvision`
--   `matplotlib`
+```bash
+python -m venv .venv
+source .venv/bin/activate   # on Windows: .venv\Scripts\Activate.ps1 (PowerShell)
+pip install -r requirements.txt
+```
 
-You can install them using pip:
-`pip install -r requirements.txt`
+## Run
+Open and run the notebook (`pytorch2.ipynb`) in Jupyter or VS Code:
 
-## Usage
+```bash
+jupyter notebook pytorch2.ipynb
+```
 
-1.  Run all cells in the notebook to train the model.
-2.  The trained model will be saved as `model.pth`.
-3.  You can then use the provided inference code to test predictions on new images.
+The notebook trains the model and saves `model.pth`.
+
+## Notes
+- `model.pth` is ~2.7 MB and is already committed; Git LFS is not required.
+- If you add dataset files or large outputs, add them to `.gitignore`.
+
+## License
+Add a license (e.g., MIT) if you want others to reuse your code.
+
+## Contact
+Open an issue or contact the repository owner on GitHub.
